@@ -147,7 +147,7 @@ class TicTacToe {
                 newCol.setAttribute('class', 'col-xs-3');
 
                 let newTile = document.createElement('span');
-                newTile.setAttribute('class', 'tile fas fa-question-sign');
+                newTile.setAttribute('class', 'tile fas fa-question tile');
                 newTile.setAttribute('data-x', i);
                 newTile.setAttribute('data-y', j);
 
