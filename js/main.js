@@ -118,7 +118,7 @@ class TicTacToe {
         } else {
             this.currentPlayer = this.player1;
         }
-        this.currentPlayerToken.setAttribute('class', `fas fa-${this.currentPlayerToken}`);
+        this.currentPlayerToken.setAttribute('class', `fas fa-${this.currentPlayer.Token}`);
     }
     setUpTileListeners() {
         // Event listeners added to all tiles when a new game is started.
