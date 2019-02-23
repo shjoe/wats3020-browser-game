@@ -11,7 +11,6 @@ class TicTacToe {
         // Properties initialized to track game progress.
         this.player1 = new Player('times');
         this.player2 = new Player('circle');
-        this.player2 = null;
         this.currentPlayer = null;
         this.gameStatus = null;
         this.winner = null;
